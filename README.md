@@ -45,7 +45,7 @@ docker exec -it pg_docker psql -U postgres
 
 **Приведите в ответе** команду, которую вы использовали для вычисления, и полученный результат.
 
-[IMAGE](1.PNG)
+![image](1.png)
 
 ## Задача 3
 
@@ -55,7 +55,7 @@ docker exec -it pg_docker psql -U postgres
 
 Предложите SQL-транзакцию для проведения этой операции.
 
-[IMAGE](2.PNG)
+![image](2.png)
 
 Можно ли было изначально исключить ручное разбиение при проектировании таблицы orders?
 
@@ -67,7 +67,7 @@ docker exec -it pg_docker psql -U postgres
 
 Используя утилиту `pg_dump`, создайте бекап БД `test_database`.
 
-[IMAGE](3.PNG)
+![image](3.png)
 
 Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 
